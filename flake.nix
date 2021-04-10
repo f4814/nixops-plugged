@@ -28,9 +28,9 @@
     packages = {
       # A nixops with all plugins included.
       nixops-plugged = nixops.withPlugins (ps: [
-        ps.nixops-aws
+        # ps.nixops-aws
         ps.nixops-digitalocean
-        ps.nixops-gcp
+        # ps.nixops-gcp
         ps.nixops-hetznercloud
         #ps.nixops-virtd
         ps.nixopsvbox
